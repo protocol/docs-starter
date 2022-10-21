@@ -1,7 +1,7 @@
 [[main]]
-  name = "Topbar item"
-  url = "/level0"
-  weight = 10
+  name = "Basics"
+  url = "/basics/install/windows/"
+  weight = 1
 
 [[main]]
   name = "Blog"
@@ -14,38 +14,24 @@
   identifier = "dropdown"
   url = "/"
 
-[[main]]
-  name = "First item"
-  weight = 40
-  identifier = "dropdown-first-item"
-  url = "/"
-  parent = "dropdown"
+    [[main]]
+      name = "First item"
+      weight = 40
+      identifier = "dropdown-first-item"
+      url = "/"
+      parent = "dropdown"
 
-[[main]]
-  name = "Second item"
-  weight = 50
-  identifier = "dropdown-second-item"
-  url = "https://example.com"
-  parent = "dropdown"
+    [[main]]
+      name = "Second item"
+      weight = 50
+      identifier = "dropdown-second-item"
+      url = "https://example.com"
+      parent = "dropdown"
 
 [[main]]
   name = "External link"
   url = "https://example.com"
   weight = 60
-
-
-
-# [[topbar-item]]
-#   name = "Sidebar dropdown"
-#   weight = 10
-#   identifier = "topbar-item-sidebar-dropdown"
-#   url = "/docs/prologue/"
-# 
-# [[topbar-item]]
-#   name = "Another sidebar dropdown"
-#   weight = 20
-#   identifier = "topbar-item-another-sidebar-dropdown"
-#   url = "/docs/prologue/"
 
 
 
