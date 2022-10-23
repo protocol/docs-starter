@@ -6,7 +6,7 @@ date: 2022-00-01T00:00:01-04:00
 date: 2022-00-01T00:00:01-04:00
 draft: false
 weight: 50
-images: []
+images: ["dogs.jpg"]
 categories: ["Welcome"]
 tags: ["basic", "example", "images"]
 contributors: ["Example writer"]
