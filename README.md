@@ -104,6 +104,10 @@ To create a new level 3 page called _Windows_ under the _Basics_ topbar section 
 npm run create -- --kind page basics/install/windows
 ```
 
-## Lorem
+## Todo
 
-Ipsum.
+- [ ] Rename this repo to something less generic.
+- [ ] Add in better pictures of dogs.
+- [ ] Automate favicon creation.
+- [ ] Automate adding item to topbar using `npm run create ...` commands.
+- [ ] Figure out why Search doesn't seem to be working.
