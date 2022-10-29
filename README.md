@@ -76,7 +76,7 @@ To add the _Basics_ section to the topbar nav that sends to users to `/basics/in
 
 The lower the `weight` number, the further left the item will appear.
 
-### Sideabar dropdown
+### Sidebar dropdown
 
 To create a new sidebar dropdown, run:
 
