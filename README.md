@@ -4,44 +4,28 @@ This repository contains the base platform to build a docs site from. This platf
 
 ## Create your project
 
-You can create your docs site project by following these steps.
+You can create your project quicking by following these steps.
 
-1. Create a blank git repository:
+1. Save and run the following script:
 
     ```shell
+    #!/bin/bash
+
+    # Create a blank git repository.
     mkdir ~/my-docs-site && cd ~/my-docs-site && git init
-    ```
 
-1. Add `git@github.com:protocol/docs-starter` as a submodule:
-
-    ```shell
+    # Add the docs-starter as a submodule.
     git submodule add git@github.com:protocol/docs-starter
-    ```
 
-1. Create a `content` directory in the root of your repository:
-
-    ```shell
+    # Create a content directory and copy the sample config directory.
     mkdir content
-    ```
-
-1. Copy the sample `example_site/config` directory to the root of your repository:
-
-    ```shell
     cp -r docs-starter/example_site/config .
-    ```
 
-1. Create symbolic links from these two new directories into the `docs-starter` submodule directory:
-
-    ```shell
+    # Create symlinks for content and config.
     ln -s ~/my-docs-site/content ~/my-docs-site/docs-starter/content
     ln -s ~/my-docs-site/config ~/my-docs-site/docs-starter/config
-    ```
 
-    This will create two sym-links within the `docs-starter` directory that you can sync from your repo.
-
-1. Move into the `docs-starter` directory and install the NPM dependencies:
-
-    ```shell
+    # Move into the docs-starter directory and install the dependencies.
     cd docs-starter && npm install
     ```
 
@@ -61,8 +45,7 @@ You can create your docs site project by following these steps.
 
 Once you have set up your project, you can start a local server by running the following steps.
 
-1. Move to the root of your repository.
-1. Move into the `docs-starter` directory:
+1. From the root of your project directory, move into the `docs-starter` directory:
 
     ```shell
     cd docs-starter
@@ -156,6 +139,24 @@ To create a new level 3 page called _Windows_ under the _Basics_ topbar section 
 ```shell
 npm run create -- --kind page basics/install/windows
 ```
+
+## Example project
+
+This repository has an `example-site` directory that you can use to help understand how this project works. To run the example site locally:
+
+1. From the root of your project directory, move into the `docs-starter/example-site` repository:
+
+    ```shell
+    cd docs-starter/example-site
+    ```
+
+1. Run the local server with NPM:
+
+    ```shell
+    npm run start
+    ```
+
+1. Open [`localhost:1313` in your browser](http://localhost:1313).
 
 ## Project todos
 
