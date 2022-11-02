@@ -1,13 +1,46 @@
 # Protocol Labs docs platform
 
-This repository contains the base platform to build a docs site from. This platform is built using Hugo and started life in the [Doks repo](https://github.com/h-enk/doks).
+This repository contains the base platform to build a docs site from. This platform is built using Hugo and started life in the [Doks repo](https://github.com/h-enk/doks). This repo is designed to be used as a template and submodule.
 
 ## Install
 
-1. Clone this repo and move into the folder:
+1. Create a blank git reposority:
 
     ```shell
-    git clone https://github.com/protocol/pl-docs-platform && cd pl-docs-platform
+    mkdir ~/my-docs-site && cd ~/my-docs-site && git init
+    ```
+
+1. Add `git@github.com:protocol/docs-starter` as a submodule:
+
+    ```shell
+    git submodule add git@github.com:protocol/docs-starter
+    ```
+
+1. Create a `content` directory in the root of your repository:
+
+    ```shell
+    mkdir content
+    ```
+
+1. Copy the sample `example_site/config` directory to the root of your repository:
+
+    ```shell
+    cp -r docs-starter/example_site/config .
+    ```
+
+1. Create symbolic links from these two new directories into the `docs-starter` submodule directory:
+
+    ```shell
+    ln -s ~/my-docs-site/content ~/my-docs-site/docs-starter/content
+    ln -s ~/my-docs-site/config ~/my-docs-site/docs-starter/config
+    ```
+
+    This will create two sym-links within the `docs-starter` directory that you can sync from your repo.
+
+1. Move into the `docs-starter` directory:
+
+    ```shell
+    cd docs-starter
     ```
 
 1. Install the NPM dependencies:
