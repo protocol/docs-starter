@@ -64,8 +64,6 @@ Once you have set up your project, you can start a local server by running the f
 
 This is how the website is organized in terms of menus and pages:
 
-![Map of the website levels.](./static/images/site-levels-map.png)
-
 1. Level 1 is the topbar navigation.
 1. Level 2 is the dropdown sections on the sidebar navigation.
 1. Level 3 is the pages below the dropdown sections in the sidebar navigation.
