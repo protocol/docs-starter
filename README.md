@@ -26,7 +26,7 @@ You can create your project quicking by following these steps.
     ln -s ~/my-docs-site/config ~/my-docs-site/docs-starter/config
 
     # Move into the docs-starter directory and install the dependencies.
-    cd docs-starter && npm install
+    cd docs-starter && npm install && ..
     ```
 
 1. Move back to the root of your repository and commit your changes. This will differ from user to user, depending on what git service you are using. GitHub users can run the following, replacing `your_github_username` and `your_repo_name` with the appropriate values:
