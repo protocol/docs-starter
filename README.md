@@ -19,6 +19,7 @@ You can create your project quicking by following these steps.
 
     # Create a content directory and copy the sample config directory.
     mkdir content
+    mkdir content/en
     cp -r docs-starter/example-site/config .
 
     # Create symlinks for content and config.
