@@ -15,11 +15,11 @@ You can create your project quicking by following these steps.
     mkdir ~/my-docs-site && cd ~/my-docs-site && git init
 
     # Add the docs-starter as a submodule.
-    git submodule add git@github.com:protocol/docs-starter
+    git submodule add https://github.com/protocol/docs-starter
 
     # Create a content directory and copy the sample config directory.
     mkdir content
-    cp -r docs-starter/example_site/config .
+    cp -r docs-starter/example-site/config .
 
     # Create symlinks for content and config.
     ln -s ~/my-docs-site/content ~/my-docs-site/docs-starter/content
