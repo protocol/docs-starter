@@ -79,13 +79,13 @@ Use the following terminal commands to create new sections and pages.
 To create a new topbar section, run:
 
 ```shell
-npm run create -- --kind topbar-item <topbar item name>
+npm run create -- --kind topbar <topbar item name>
 ```
 
 To create a new level 1 section called _Basics_, run:
 
 ```shell
-npm run create -- --kind topbar-item basics
+npm run create -- --kind topbar basics
 ```
 
 ##### Add to the topbar menu
@@ -115,13 +115,13 @@ The lower the `weight` number, the further left the item will appear.
 To create a new sidebar dropdown, run:
 
 ```shell
-npm run create -- --kind sidebar-dropdown <topbar section>/<sidebar name>
+npm run create -- --kind sidebar <topbar section>/<sidebar name>
 ```
 
 To create a new level 2 section called _Install_ under the _Basics_ topbar section, run:
 
 ```shell
-npm run create -- --kind sidebar-dropdown basics/install
+npm run create -- --kind sidebar basics/install
 ```
 
 #### Page
@@ -129,7 +129,7 @@ npm run create -- --kind sidebar-dropdown basics/install
 To create a new page, run:
 
 ```shell
-npm run create -- --kind page <topbar section>/<sidebar dropdown>/<page title>
+npm run create -- --kind page <topbar>/<sidebar>/<page title>
 ```
 
 To create a new level 3 page called _Windows_ under the _Basics_ topbar section in the _Install_ dropdown, run:
