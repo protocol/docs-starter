@@ -2,8 +2,6 @@
 
 This repository contains the base platform to build a docs site from. This platform is built using Hugo and started life in the [Doks repo](https://github.com/h-enk/doks).
 
-![Screenshot of this repository's example site in a browser window.](./static/images/site-screenshot.png)
-
 ## Install
 
 1. Clone this repo and move into the folder:

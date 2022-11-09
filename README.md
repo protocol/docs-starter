@@ -2,6 +2,8 @@
 
 This repository contains the base platform to build a docs site from. This platform is built using Hugo and started life in the [Doks repo by H-enk](https://github.com/h-enk/doks). This repo is designed to be used as a template and submodule. Follow through the [Create your project](#create-your-project) guide to set up everything properly.
 
+![](./static/images/site-screenshot.png)
+
 ## Create your project
 
 You can create your project quicking by following these steps.
