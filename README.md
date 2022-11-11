@@ -170,3 +170,5 @@ This is the stuff we're still working on.
 - [ ] Automate adding item to topbar using `npm run create ...` commands.
 - [ ] Figure out why Search doesn't seem to be working.
 - [ ] Replace topbar gradient bar with a progress bar.
+- [ ] Change content of exampleSite to contain actual docs for this repo.
+- [ ] Add scroll indicator in place of topbar gradient.

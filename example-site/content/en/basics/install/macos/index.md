@@ -1,5 +1,5 @@
 ---
-title: "MacOS"
+title: "Macos"
 description: ""
 lead: ""
 date: 2022-01-25T14:41:39+01:00
@@ -10,46 +10,12 @@ type: docs
 menu:
   basics:
     parent: "lorem"
-    identifier: "windows-454605adb582080c27f5b50131d23a4e"
-weight: 30
+    identifier: "macos-8344e878f448ab6a1dc863336e3fccc9"
+weight: 100
 toc: true
 ---
 
 This is a sidebar item page. Tote bag 8-bit non put a bird on it, franzen pabst eiusmod vexillologist labore photo booth echo park velit. Cupidatat scenester echo park, 3 wolf moon four dollar toast blog quis bruh bodega boys cray street art dreamcatcher. Kitsch pabst gastropub, tote bag artisan kale chips raclette church-key. Poutine roof party laboris in. Nostrud ea vibecession helvetica thundercats. Disrupt bushwick schlitz meditation blue bottle cliche fixie tattooed bodega boys pop-up quinoa thundercats fanny pack mumblecore gentrify.
-
-{{< tabs tabTotal="3">}}
-{{< tab tabName="JavaScript" >}}
-
-<pre>
-function main() {
-    console.log("Hello world");
-}
-</pre>
-
-{{< /tab >}}
-{{< tab tabName="Go" >}}
-
-<pre>
-package main
-import "fmt"
-
-func main() {
-    fmt.Println("Hello world")
-}
-</pre>
-
-
-{{< /tab >}}
-{{< tab tabName="Rust">}}
-
-<pre>
-fn main() {
-    println!("Hello World");
-}
-</pre>
-
-{{< /tab >}}
-{{< /tabs >}}
 
 ## Selvage
 

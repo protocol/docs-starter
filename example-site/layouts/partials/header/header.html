@@ -6,7 +6,11 @@
 <div class="sticky-top">
 {{ end -}}
 
-<div class="header-bar"></div>
+{{ if eq .Site.Params.options.progressbar true -}}
+<div class="progress-container">
+    <div class="progress-bar" id="progress_bar"></div>
+</div>
+{{ end -}}
 
 <header class="navbar navbar-expand-lg navbar-light doks-navbar">
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
