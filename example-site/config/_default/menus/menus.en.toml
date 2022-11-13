@@ -1,6 +1,6 @@
 [[main]]
-  name = "Basics"
-  url = "/basics/install/windows/"
+  name = "Docs"
+  url = "/docs/install/windows/"
   weight = 1
 
 [[main]]

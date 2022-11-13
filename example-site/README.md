@@ -106,10 +106,12 @@ npm run create -- --kind page basics/install/windows
 
 ## Todo
 
-- [ ] Rename this repo to something less generic.
+- [x] Rename this repo to something less generic.
+- [x] Figure out why Search doesn't seem to be working.
+- [x] Replace topbar gradient bar with a progress bar.
+- [x] Create shortcode for codeblock tabs.
+- [x] Fix missing fonts.
 - [ ] Add in better pictures of dogs.
 - [ ] Automate favicon creation.
 - [ ] Automate adding item to topbar using `npm run create ...` commands.
-- [ ] Figure out why Search doesn't seem to be working.
-- [ ] Replace topbar gradient bar with a progress bar.
-- [ ] Create shortcode for codeblock tabs.
+- [ ] Let user set homepage or not.

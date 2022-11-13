@@ -1,5 +1,5 @@
 ---
-title: "Install"
+title: "Commands"
 description: ""
 lead: ""
 date: 2022-01-25T14:41:21+01:00
