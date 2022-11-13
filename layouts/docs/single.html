@@ -25,7 +25,7 @@
 				</nav>
 			{{ end }}
 			<h1>{{ .Title }}</h1>
-            {{ if ne .Params.lead -}}
+            {{ if isset .Params "lead" -}}
                 <p class="lead">{{ .Params.lead | safeHTML }}</p>
             {{ else -}}
                 <p class="lead">{{ .Params.description | safeHTML }}</p>
