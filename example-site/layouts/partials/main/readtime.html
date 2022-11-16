@@ -1,0 +1,5 @@
+<div class="readtime">
+    {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+    {{ $minutes := math.Floor (div $readTime 60) }}
+    <p>Reading time: {{ $minutes }} {{ cond (eq $minutes 1) "minute" "minutes" }}.</p>
+</div>
