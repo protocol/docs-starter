@@ -1,16 +1,14 @@
-
 $background-color   : #333;
 $foreground-color   : #eee;
 $arrow-size         : 8px;
 $vertical-shift     : 12px;
 $multiline-width    : 240px;
 $tooltip-padding    : 8px 12px;
-$roundness          : 3px; // 0 || border-radius
+$roundness          : 0px; // 0 || border-radius
 $shadow             : 0 5px 15px -5px rgba(0, 0, 0, .65); // 0 || box-shadow
-$load-styles        : true !default; // Extra styles needed?
+$load-styles        : false !default; // Extra styles needed?
 
 [data-tooltip] {
-
     position: relative;
     display: inline-block;
 
