@@ -1,1 +1,13 @@
-<a href="#" data-tooltip="{{ with .Get 0 -}}{{ . | safeHTML }}{{ end -}}">{{ with .Inner -}}{{ . | markdownify}}{{ else -}}{{ errorf "No details provided"}}{{ end -}}</a>
+<!-- Create array/map of all possible tooltips. -->
+{{ $tooltips := dict
+    "Lotus" "The reference node implementation for the filecoin network."
+    "Lily" "Software designed to simplify the recording of blockchain data."
+}}
+
+<!-- Pick the item from the array/map we want based on -->
+<!-- what is inside the quotes in the markdown shortcode. -->
+{{ $value := .Get 0 }}
+{{ $description := index $tooltips $value }}
+
+<!-- Output the HTML we need to display the tooltip. -->
+<a href="#" data-tooltip="{{ $description | safeHTML }}">{{ $value | safeHTML }}</a>
