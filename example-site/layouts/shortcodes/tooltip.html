@@ -1,0 +1,1 @@
+<a href="#" data-tooltip="{{ with .Get 0 -}}{{ . | safeHTML }}{{ end -}}">{{ with .Inner -}}{{ . | markdownify}}{{ else -}}{{ errorf "No details provided"}}{{ end -}}</a>
