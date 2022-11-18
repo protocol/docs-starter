@@ -1,6 +1,6 @@
 [[main]]
   name = "Docs"
-  url = "/docs/install/windows/"
+  url = "/docs/commands/create-page/"
   weight = 1
 
 [[main]]
