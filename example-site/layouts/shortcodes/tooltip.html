@@ -10,4 +10,4 @@
 {{ $description := index $tooltips $value }}
 
 <!-- Output the HTML we need to display the tooltip. -->
-<a href="#" data-tooltip="{{ $description | safeHTML }}">{{ $value | safeHTML }}</a>
+<a class="tooltip-multiline tooltip-text" href="#" data-tooltip="{{ $description | safeHTML }}">{{ $value | safeHTML }}</a>

@@ -6,7 +6,8 @@ $multiline-width    : 240px;
 $tooltip-padding    : 8px 12px;
 $roundness          : 0px; // 0 || border-radius
 $shadow             : 0 5px 15px -5px rgba(0, 0, 0, .65); // 0 || box-shadow
-$load-styles        : false !default; // Extra styles needed?
+$load-styles        : true !default; // Extra styles needed?
+
 
 [data-tooltip] {
     position: relative;
@@ -60,6 +61,10 @@ $load-styles        : false !default; // Extra styles needed?
                 max-width: $multiline-width;
                 white-space: normal;
             }
+        &.tooltip-text{
+                text-decoration: underline;
+                text-decoration-style: dotted;
+            }
         }
 
         // ----------
@@ -101,3 +106,4 @@ $load-styles        : false !default; // Extra styles needed?
     }
 
 }
+
