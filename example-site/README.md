@@ -115,3 +115,8 @@ npm run create -- --kind page basics/install/windows
 - [ ] Automate favicon creation.
 - [ ] Automate adding item to topbar using `npm run create ...` commands.
 - [ ] Let user set homepage or not.
+
+## Open-source projects used
+
+- [Doks](https://getdoks.org/) by [Henk Verlinde](https://henkverlinde.com/)
+- [CSS Tooltip](https://github.com/alterebro/css-tooltip) by [alterebro](https://github.com/alterebro)
