@@ -172,3 +172,4 @@ This is the stuff we're still working on.
 - [ ] Replace topbar gradient bar with a progress bar.
 - [ ] Change content of exampleSite to contain actual docs for this repo.
 - [ ] Add scroll indicator in place of topbar gradient.
+- [ ] Add setting to use image or text for topbar nav logo.
