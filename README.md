@@ -8,38 +8,16 @@ This repository contains the base platform to build a docs site from. This platf
 
 You can create your project quicking by following these steps.
 
-1. Save and run the following script:
+1. Clone this repo:
 
     ```shell
-    #!/bin/bash
-
-    # Create a blank git repository.
-    mkdir ~/my-docs-site && cd ~/my-docs-site && git init
-
-    # Add the docs-starter as a submodule.
-    git submodule add https://github.com/protocol/docs-starter
-
-    # Create a content directory and copy the sample config directory.
-    mkdir content
-    mkdir content/en
-    cp -r docs-starter/example-site/config .
-
-    # Create symlinks for content and config.
-    ln -s ~/my-docs-site/content ~/my-docs-site/docs-starter/content
-    ln -s ~/my-docs-site/config ~/my-docs-site/docs-starter/config
-
-    # Move into the docs-starter directory and install the dependencies.
-    cd docs-starter && npm install && ..
+    git clone https://github.com/protocol/docs-starter
     ```
 
-1. Move back to the root of your repository and commit your changes. This will differ from user to user, depending on what git service you are using. GitHub users can run the following, replacing `your_github_username` and `your_repo_name` with the appropriate values:
+1. Move into the `docs-starter` directory and install the dependencies:
 
     ```shell
-    git add .
-    git commit -m "First commit"
-    git branch -M main
-    git remote add origin git@github.com:your_github_username/your_repo_name.git
-    git push -u origin main
+    cd docs-starter && npm install
     ```
 
 1. Done!
@@ -48,12 +26,6 @@ You can create your project quicking by following these steps.
 
 Once you have set up your project, you can start a local server by running the following steps.
 
-1. From the root of your project directory, move into the `docs-starter` directory:
-
-    ```shell
-    cd docs-starter
-    ```
-
 1. Run the local server with NPM:
 
     ```shell
@@ -61,7 +33,7 @@ Once you have set up your project, you can start a local server by running the f
     ```
 
 1. Open [`localhost:1313` in your browser](http://localhost:1313).
-1. You won't see any content there initally. See the [Maintaining content](#maintaining-content) section for more information.
+1. Stop the server with `CTRL` + `c`.
 
 ## Maintaining content
 
@@ -141,35 +113,16 @@ To create a new level 3 page called _Windows_ under the _Basics_ topbar section 
 npm run create -- --kind page basics/install/windows
 ```
 
-## Example project
+## Open-source projects used
 
-This repository has an `example-site` directory that you can use to help understand how this project works. To run the example site locally:
-
-1. From the root of your project directory, move into the `docs-starter/example-site` repository:
-
-    ```shell
-    cd docs-starter/example-site
-    ```
-
-1. Run the local server with NPM:
-
-    ```shell
-    npm run start
-    ```
-
-1. Open [`localhost:1313` in your browser](http://localhost:1313).
+- [Doks](https://getdoks.org/) by [Henk Verlinde](https://henkverlinde.com/)
+- [CSS Tooltip](https://github.com/alterebro/css-tooltip) by [alterebro](https://github.com/alterebro)
 
 ## Project todos
 
 This is the stuff we're still working on.
 
-- [x] Rename this repo to something less generic.
-- [x] Create shortcode for codeblock tabs.
 - [ ] Add in better pictures of dogs.
 - [ ] Automate favicon creation.
 - [ ] Automate adding item to topbar using `npm run create ...` commands.
-- [ ] Figure out why Search doesn't seem to be working.
-- [ ] Replace topbar gradient bar with a progress bar.
-- [ ] Change content of exampleSite to contain actual docs for this repo.
-- [ ] Add scroll indicator in place of topbar gradient.
 - [ ] Add setting to use image or text for topbar nav logo.

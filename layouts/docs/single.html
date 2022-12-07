@@ -25,11 +25,10 @@
 				</nav>
 			{{ end }}
 			<h1>{{ .Title }}</h1>
-            {{ if isset .Params "lead" -}}
-                <p class="lead">{{ .Params.lead | safeHTML }}</p>
-            {{ else -}}
-                <p class="lead">{{ .Params.description | safeHTML }}</p>
-            {{ end -}}
+			{{ if .Site.Params.options.readtime -}}
+                {{ partial "main/readtime" . }}
+            {{ end }}
+			<p class="lead">{{ .Params.lead | safeHTML }}</p>
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}
