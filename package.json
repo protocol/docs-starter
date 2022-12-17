@@ -1,14 +1,16 @@
 {
-  "name": "@hyas/doks",
-  "description": "Doks theme",
-  "version": "0.5.0",
+  "name": "@johnnymatthews/npmify-test",
+  "description": "Quickly create an easy-to-use, customizable documentation website for your project.",
+  "author": "Johnny Matthews",
+  "type": "module",
+  "version": "0.0.1",
   "engines": {
     "node": ">=16.16.0"
   },
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/h-enk/doks",
+  "repository": "https://github.com/johnnymatthews/npmify-test",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -51,7 +53,7 @@
     "exec-bin": "^1.0.0",
     "flexsearch": "^0.7.21",
     "highlight.js": "^11.5",
-    "hugo-installer": "^3.1",
+    "hugo-installer": "^3.1.0",
     "instant.page": "^5.1",
     "katex": "^0.16",
     "lazysizes": "^5.3",
