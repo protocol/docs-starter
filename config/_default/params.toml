@@ -97,6 +97,7 @@ lastMod = false
   searchSectionsShow = "ALL"
   searchSectionsIndex = "ALL"
   darkMode = true
+  openDyslexic = true
   bootStrapJs = true
   breadCrumb = false
   highLight = true

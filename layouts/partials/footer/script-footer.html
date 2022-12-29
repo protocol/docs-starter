@@ -50,6 +50,12 @@
   {{ $slice = $slice | append $darkMode -}}
 {{ end -}}
 
+{{ if .Site.Params.options.openDyslexic -}}
+  {{ $openDyslexic := resources.Get "js/open-dyslexic.js" -}}
+  {{ $openDyslexic := $openDyslexic | js.Build -}}
+  {{ $slice = $slice | append $openDyslexic -}}
+{{ end -}}
+
 {{ if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
   {{ $alert := resources.Get "js/alert.js" -}}
   {{ $alert := $alert | js.Build -}}

@@ -87,3 +87,9 @@
   src:
     url("/fonts/aileron/Aileron-Black.otf") format("opentype")
 }
+
+[data-dyslexic-font] {
+    body {
+        font-family: monospace;
+    }
+}
