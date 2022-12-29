@@ -1,55 +1,28 @@
 ---
 title: "Create page"
-description: ""
-lead: ""
-date: 2022-01-25T14:41:39+01:00
-lastmod: 2022-01-25T14:41:39+01:00
+description: "Manually creating pages is annoying. You can create a page directly from the command line by using the `npm run create` command, along with a few arguments."
+lead: "Manually creating pages is annoying. You can create a page directly from the command line by using the `npm run create` command, along with a few arguments."
 draft: false
 images: []
 type: docs
 menu:
   docs:
-    parent: "lorem"
     identifier: "create-page-7170c6b48e3178fd9799c774e9c8d3b1"
 weight: 100
 toc: true
 ---
 
+```javascript
+// This should be copyable.
+(()=>{"use strict";va a={},b={};function c(d){var e=b[d];if(void 0!==e)return e.exports;r
+```
+
+```javascript
+// This should NOT be copyable.
+var f=b[d]={id:d,loaded:!1,exports:{}};
+```
+
 This is a sidebar item page. {{< tooltip "Lotus" >}} Tote bag 8-bit non put a bird on it, franzen pabst eiusmod vexillologist labore photo booth echo park velit. Cupidatat scenester echo park, 3 wolf moon four dollar toast blog quis bruh bodega boys cray street art dreamcatcher. Kitsch pabst {{< tooltip "Lily" >}} gastropub, tote bag artisan kale chips raclette church-key. Poutine roof party laboris in. Nostrud ea vibecession helvetica thundercats. Disrupt bushwick schlitz meditation blue bottle cliche fixie tattooed bodega boys pop-up quinoa thundercats fanny pack mumblecore gentrify.
-
-{{< tabs tabTotal="3">}}
-{{< tab tabName="JavaScript" >}}
-
-<pre>
-function main() {
-    console.log("Hello world");
-}
-</pre>
-
-{{< /tab >}}
-{{< tab tabName="Go" >}}
-
-<pre>
-package main
-import "fmt"
-
-func main() {
-    fmt.Println("Hello world")
-}
-</pre>
-
-
-{{< /tab >}}
-{{< tab tabName="Rust">}}
-
-<pre>
-fn main() {
-    println!("Hello World");
-}
-</pre>
-
-{{< /tab >}}
-{{< /tabs >}}
 
 ## Selvage
 
