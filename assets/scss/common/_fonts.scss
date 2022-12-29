@@ -1,4 +1,5 @@
-/* Aileron - latin */
+/* Aileron */
+/* =============================== */
 @font-face {
   font-family: "Aileron";
   font-style: normal;
@@ -77,16 +78,34 @@
   src:
     url("/fonts/aileron/Aileron-Black.otf") format("opentype")
 }
+/* =============================== */
 
-/* jost-regular - latin */
+
+
+
+/* OpenDyslexic */
+/* =============================== */
 @font-face {
-  font-family: "Aileron";
-  font-style: normal;
-  font-weight: 500;
-  font-display: auto;
-  src:
-    url("/fonts/aileron/Aileron-Black.otf") format("opentype")
+  font-family: 'opendyslexic';
+	src: url('/fonts/opendyslexic/OpenDyslexic3-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
 }
+
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('/fonts/opendyslexic/OpenDyslexic3-Bold.ttf');
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+  font-family: 'opendyslexic-monospace';
+	src: url('/fonts/opendyslexic/OpenDyslexic3-Monospace.ttf');
+	font-style: normal;
+	font-weight: bold;
+}
+/* =============================== */
 
 [data-dyslexic-font] {
     body {
