@@ -87,16 +87,9 @@
 /* =============================== */
 @font-face {
   font-family: 'opendyslexic';
-	src: url('/fonts/opendyslexic/OpenDyslexic3-Regular.ttf');
+	src: url('/fonts/opendyslexic/OpenDyslexic3-Regular.woff');
 	font-style: normal;
 	font-weight: normal;
-}
-
-@font-face {
-  font-family: 'opendyslexic';
-	src: url('/fonts/opendyslexic/OpenDyslexic3-Bold.ttf');
-	font-style: normal;
-	font-weight: bold;
 }
 
 @font-face {
@@ -109,6 +102,10 @@
 
 [data-dyslexic-font] {
     body {
+        font-family: opendyslexic;
+    }
+
+    .readtime {
         font-family: opendyslexic;
     }
 
