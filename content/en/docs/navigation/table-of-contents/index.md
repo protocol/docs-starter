@@ -1,28 +1,19 @@
 ---
-title: "Create page"
-description: "Manually creating pages is annoying. You can create a page directly from the command line by using the `npm run create` command, along with a few arguments."
-lead: "Manually creating pages is annoying. You can create a page directly from the command line by using the `npm run create` command, along with a few arguments."
+title: "Table of contents"
+description: ""
+lead: ""
 draft: false
 images: []
 type: docs
 menu:
   docs:
-    identifier: "create-page-7170c6b48e3178fd9799c774e9c8d3b1"
+    parent: "lorem"
+    identifier: "table-of-contents-86cb7d5019d7a115840eca3f0164e9a3"
 weight: 100
 toc: true
 ---
 
-```javascript
-// This should be copyable.
-(()=>{"use strict";va a={},b={};function c(d){var e=b[d];if(void 0!==e)return e.exports;r
-```
-
-```javascript
-// This should NOT be copyable.
-var f=b[d]={id:d,loaded:!1,exports:{}};
-```
-
-This is a sidebar item page. {{< tooltip "Lotus" >}} Tote bag 8-bit non put a bird on it, franzen pabst eiusmod vexillologist labore photo booth echo park velit. Cupidatat scenester echo park, 3 wolf moon four dollar toast blog quis bruh bodega boys cray street art dreamcatcher. Kitsch pabst {{< tooltip "Lily" >}} gastropub, tote bag artisan kale chips raclette church-key. Poutine roof party laboris in. Nostrud ea vibecession helvetica thundercats. Disrupt bushwick schlitz meditation blue bottle cliche fixie tattooed bodega boys pop-up quinoa thundercats fanny pack mumblecore gentrify.
+This is a sidebar item page. Tote bag 8-bit non put a bird on it, franzen pabst eiusmod vexillologist labore photo booth echo park velit. Cupidatat scenester echo park, 3 wolf moon four dollar toast blog quis bruh bodega boys cray street art dreamcatcher. Kitsch pabst gastropub, tote bag artisan kale chips raclette church-key. Poutine roof party laboris in. Nostrud ea vibecession helvetica thundercats. Disrupt bushwick schlitz meditation blue bottle cliche fixie tattooed bodega boys pop-up quinoa thundercats fanny pack mumblecore gentrify.
 
 ## Selvage
 
