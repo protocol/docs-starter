@@ -101,7 +101,7 @@
 
 @font-face {
   font-family: 'opendyslexic-monospace';
-	src: url('/fonts/opendyslexic/OpenDyslexic3-Monospace.ttf');
+	src: url('/fonts/opendyslexic/OpenDyslexicMono-Regular.otf');
 	font-style: normal;
 	font-weight: bold;
 }
@@ -109,6 +109,10 @@
 
 [data-dyslexic-font] {
     body {
-        font-family: monospace;
+        font-family: opendyslexic;
+    }
+
+    pre {
+        font-family: opendyslexic-monospace;
     }
 }
