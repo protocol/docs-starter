@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Docs Website"
+title = "Docs Starter"
 titleSeparator = "-"
-titleAddition = "A simple documentation platform."
-description = "This documentation platform helps teams write, build, and deploy a simple documentation site that's easy for users to navigate."
+titleAddition = "A simple documentation platform to get your started."
+description = "This documentation platform helps teams write, build, and deploy a simple documentation site that's easy for users to navigate and for teams to maintain."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -75,7 +75,7 @@ copyRight = ""
 # Alert
 alert = true
 alertDismissable = true
-alertText = "This alert pops up at the top of the webpage. It's useful to ask users for cookies and all that GDPR stuff. If you're happy with us using cooking, <a href='#'>click here</a>."
+alertText = "This alert pops up at the top of the webpage. It's useful to ask users for cookies and all that GDPR stuff."
 
 # Edit Page
 repoHost = "GitHub"

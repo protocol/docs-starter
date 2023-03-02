@@ -1,27 +1,57 @@
 [[main]]
   name = "Docs"
-  url = "/docs/commands/create-page/"
+  url = "/docs/basics/copy-the-template/"
+  identifier = "docs"
   weight = 1
 
+    [[main]]
+      name = "Basics"
+      weight = 10
+      identifier = "docs-basics"
+      url = "/docs/basics/start-here"
+      parent = "docs"
+
+    [[main]]
+      name = "Features"
+      weight = 20
+      identifier = "docs-features"
+      url = "/docs/features/code-tabs/"
+      parent = "docs"
+
+    [[main]]
+      name = "Menus"
+      weight = 30
+      identifier = "docs-menus"
+      url = "/docs/menus/dropdown/"
+      parent = "docs"
+
+
 [[main]]
-  name = "Support"
-  weight = 30
-  identifier = "dropdown"
-  url = "/"
+  name = "Reference"
+  url = "/docs/basics/copy-the-template/"
+  weight = 1
+  identifier = "reference"
 
     [[main]]
-      name = "Contact"
-      weight = 40
-      identifier = "dropdown-first-item"
-      url = "/contact"
-      parent = "dropdown"
+      name = "Commands"
+      weight = 10
+      identifier = "reference-commands"
+      url = "/reference/commands"
+      parent = "reference"
 
     [[main]]
-      name = "Slack channel"
-      weight = 50
-      identifier = "dropdown-second-item"
-      url = "https://example.com"
-      parent = "dropdown"
+      name = "Configuration"
+      weight = 20
+      identifier = "reference-configuration"
+      url = "/reference/configuration"
+      parent = "reference"
+
+    [[main]]
+      name = "Front-matter"
+      weight = 30
+      identifier = "reference-front-matter"
+      url = "/reference/front-matter"
+      parent = "reference"
 
 [[main]]
   name = "Blog"

@@ -1,55 +1,19 @@
 ---
-title: "Create page"
+title: "Topbar"
 description: ""
 lead: ""
-date: 2022-01-25T14:41:39+01:00
-lastmod: 2022-01-25T14:41:39+01:00
 draft: false
 images: []
 type: docs
 menu:
   docs:
     parent: "lorem"
-    identifier: "create-page-7170c6b48e3178fd9799c774e9c8d3b1"
+    identifier: "topbar-72a909391dbc306dd80c030396ee52f5"
 weight: 100
 toc: true
 ---
 
-This is a sidebar item page. {{< tooltip "Lotus" >}} Tote bag 8-bit non put a bird on it, franzen pabst eiusmod vexillologist labore photo booth echo park velit. Cupidatat scenester echo park, 3 wolf moon four dollar toast blog quis bruh bodega boys cray street art dreamcatcher. Kitsch pabst {{< tooltip "Lily" >}} gastropub, tote bag artisan kale chips raclette church-key. Poutine roof party laboris in. Nostrud ea vibecession helvetica thundercats. Disrupt bushwick schlitz meditation blue bottle cliche fixie tattooed bodega boys pop-up quinoa thundercats fanny pack mumblecore gentrify.
-
-{{< tabs tabTotal="3">}}
-{{< tab tabName="JavaScript" >}}
-
-<pre>
-function main() {
-    console.log("Hello world");
-}
-</pre>
-
-{{< /tab >}}
-{{< tab tabName="Go" >}}
-
-<pre>
-package main
-import "fmt"
-
-func main() {
-    fmt.Println("Hello world")
-}
-</pre>
-
-
-{{< /tab >}}
-{{< tab tabName="Rust">}}
-
-<pre>
-fn main() {
-    println!("Hello World");
-}
-</pre>
-
-{{< /tab >}}
-{{< /tabs >}}
+This is a sidebar item page. Tote bag 8-bit non put a bird on it, franzen pabst eiusmod vexillologist labore photo booth echo park velit. Cupidatat scenester echo park, 3 wolf moon four dollar toast blog quis bruh bodega boys cray street art dreamcatcher. Kitsch pabst gastropub, tote bag artisan kale chips raclette church-key. Poutine roof party laboris in. Nostrud ea vibecession helvetica thundercats. Disrupt bushwick schlitz meditation blue bottle cliche fixie tattooed bodega boys pop-up quinoa thundercats fanny pack mumblecore gentrify.
 
 ## Selvage
 
