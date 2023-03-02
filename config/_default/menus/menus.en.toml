@@ -8,7 +8,7 @@
       name = "Basics"
       weight = 10
       identifier = "docs-basics"
-      url = "/docs/basics/start-here"
+      url = "/docs/basics/create-your-project"
       parent = "docs"
 
     [[main]]
@@ -36,7 +36,7 @@
       name = "Commands"
       weight = 10
       identifier = "reference-commands"
-      url = "/reference/commands"
+      url = "/reference/commands/build-site/"
       parent = "reference"
 
     [[main]]
@@ -50,7 +50,7 @@
       name = "Front-matter"
       weight = 30
       identifier = "reference-front-matter"
-      url = "/reference/front-matter"
+      url = "/reference/front-matter/title/"
       parent = "reference"
 
 [[main]]
