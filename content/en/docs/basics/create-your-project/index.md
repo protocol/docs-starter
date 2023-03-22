@@ -7,7 +7,6 @@ images: []
 type: docs
 menu:
   docs:
-    parent: "lorem"
     identifier: "create-your-project-d2c050fb5faacaef26719b08ac79b55e"
 weight: 1
 toc: true

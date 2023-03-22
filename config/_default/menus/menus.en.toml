@@ -1,6 +1,6 @@
 [[main]]
   name = "Docs"
-  url = "/docs/basics/copy-the-template/"
+  url = "/docs/basics/create-your-project/"
   identifier = "docs"
   weight = 1
 
